@@ -17,7 +17,8 @@ export default function Login() {
         setError(null);
 
         try {
-            const response = await axios.post('http://localhost:8000/api/login', {
+            // Replace the hardcoded string with this:
+const response = await axios.post(`${import.meta.env.VITE_API_BASE_URL}/login`, {
                 email,
                 password
             });

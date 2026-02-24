@@ -36,7 +36,7 @@ export default function Dashboard() {
             return;
         }
 
-        axios.get('http://localhost:8000/api/tenant/dashboard', {
+        axios.get(`${import.meta.env.VITE_API_BASE_URL}/tenant/dashboard`, {
             headers: {
                 'Accept': 'application/json',
                 'Authorization': `Bearer ${TOKEN}`
