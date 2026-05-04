@@ -1,1 +1,40 @@
 @import "tailwindcss";
+
+@theme {
+  /* Winter Berry Palette */
+  --color-berry-50: #fdf2f4;
+  --color-berry-100: #fce4e8;
+  --color-berry-200: #f9ccd4;
+  --color-berry-300: #f3a3b2;
+  --color-berry-400: #e86d84;
+  --color-berry-500: #d94060;
+  --color-berry-600: #c42a4e;
+  --color-berry-700: #a5203f;
+  --color-berry-800: #8E0A1E;
+  --color-berry-900: #6b0a1a;
+  --color-berry-950: #3e0310;
+
+  --color-forest-50: #f0f9f2;
+  --color-forest-100: #dbf0e0;
+  --color-forest-200: #b9e1c4;
+  --color-forest-300: #8bcba0;
+  --color-forest-400: #5aae77;
+  --color-forest-500: #3a945d;
+  --color-forest-600: #2E6F40;
+  --color-forest-700: #265c38;
+  --color-forest-800: #21492f;
+  --color-forest-900: #1c3c28;
+  --color-forest-950: #0e2116;
+
+  --color-ice-50: #f0f8fb;
+  --color-ice-100: #dff1f7;
+  --color-ice-200: #ADD8E6;
+  --color-ice-300: #8ec8da;
+  --color-ice-400: #5eadc4;
+  --color-ice-500: #4393ab;
+  --color-ice-600: #3a7890;
+  --color-ice-700: #346276;
+  --color-ice-800: #315262;
+  --color-ice-900: #2d4553;
+  --color-ice-950: #1a2c38;
+}
